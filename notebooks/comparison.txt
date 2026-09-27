@@ -1,0 +1,39 @@
+WITHOUT FUTURE ENGINEERING: 
+
+--- Tuning & Training: Baseline ---
+Recall score on test data: 0.0000
+
+--- Tuning & Training: Logistic Regression ---
+Best Params: {'logisticregression__C': 0.1, 'logisticregression__solver': 'lbfgs'}
+Recall score on test data: 0.6192
+
+--- Tuning & Training: Random Forest ---
+Best Params: {'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 200}
+Recall score on test data: 0.6285
+
+--- Tuning & Training: XGBoost ---
+Best Params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+Recall score on test data: 0.6038
+
+ The best model is : Random Forest (Recall Score: 0.6285)
+
+
+ WITH FUTURE ENGINEERING:
+
+
+--- Tuning & Training: Baseline ---
+Recall score on test data: 0.0000
+
+--- Tuning & Training: Logistic Regression ---
+Best Params: {'logisticregression__C': 0.1, 'logisticregression__solver': 'lbfgs'}
+Recall score on test data: 0.6247
+
+--- Tuning & Training: Random Forest ---
+Best Params: {'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 200}
+Recall score on test data: 0.6282
+
+--- Tuning & Training: XGBoost ---
+Best Params: {'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}
+Recall score on test data: 0.6017
+
+ The best model is : Random Forest (Recall Score: 0.6282)
